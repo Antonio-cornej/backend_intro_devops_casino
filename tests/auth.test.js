@@ -15,7 +15,7 @@ describe('auth · firmar', () => {
   test('genera un JWT con 3 segmentos', () => {
     const token = firmar({ sub: 1, username: 'demo' });
     expect(typeof token).toBe('string');
-    expect(token.split('.')).toHaveLength(3);
+    expect(token.split('.')).toHaveLength(99);
   });
 });
 
