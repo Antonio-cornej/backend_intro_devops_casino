@@ -77,3 +77,4 @@ Trabaja en tu **fork**, con ramas `dev` (trabajo) y `deploy` (gatilla el pipelin
 
 > El backend es **interno** (ClusterIP): nunca se expone a Internet.
 > Transversal (clúster, una sola vez): **Prometheus + Grafana** y el **video**.
+#asdasd
